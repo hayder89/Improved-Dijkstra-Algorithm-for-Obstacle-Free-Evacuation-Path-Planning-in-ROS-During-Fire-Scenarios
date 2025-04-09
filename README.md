@@ -1,13 +1,13 @@
 # Robot
 # 📍 Obstacle-Free Path Planning in ROS using Dijkstra Algorithm
 
-This ROS package implements a basic obstacle-free path planner using the **Dijkstra algorithm**, assuming a clean, known environment with no sensors involved. The planning logic is influenced by the **ratio of map length to width**, which determines path cost heuristics and movement preferences.
+This ROS package implements a basic obstacle-free path planner using the **Dijkstra algorithm**, assuming a clean, known environment with no sensors involved. The planning logic is influenced by the **ratio of the length to width**, which determines path cost heuristics and movement preferences.
 
 ---
 
 ## ✅ Features
 
-- Obstacle-free path planning
+- Obstacle-awareness path planning
 - Purely geometric map-based navigation
 - Adjustable planning area (length & width)
 - Path optimization based on L/W ratio
@@ -18,11 +18,11 @@ This ROS package implements a basic obstacle-free path planner using the **Dijks
 
 ## 🧾 Assumptions
 
-- The environment has **no obstacles**.
+- The environment has **some obstacles**.
 - The robot operates on a known 3D .
 - No sensor data is used.
 - Start and goal positions are manually provided.
-- The Dijkstra algorithm is used for shortest path generation.
+- The improved Dijkstra algorithm is used for shortest path generation.
 
 ---
 
