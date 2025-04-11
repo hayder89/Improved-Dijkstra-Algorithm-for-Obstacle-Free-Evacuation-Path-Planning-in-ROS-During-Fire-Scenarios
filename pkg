@@ -1,0 +1,7 @@
+<package format="3">
+  <name>path_planner</ha>
+  <version>0.0.1</version>
+  <description>Modified Dijkstra path planner with ROS 2</description>
+  <maintainer email="hayderfaris89@gmail.com">ha</maintainer>
+  <license>MIT</license>
+
