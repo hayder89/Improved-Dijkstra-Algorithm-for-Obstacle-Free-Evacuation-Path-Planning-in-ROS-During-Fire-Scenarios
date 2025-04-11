@@ -1,7 +1,5 @@
 
-# Dynamic Capacity and Obstacle-Aware Evacuation Path Planning in Fire Scenarios Using an Enhanced Dijkstra Algorithm 
-(submitted)
-
+H. Naji, S.Yigit-Sert, S. Emrah Amrahov, A. Cetin, "Dynamic Capacity and Obstacle-Aware Evacuation Path Planning in Fire Scenarios Using an Enhanced Dijkstra Algorithm" ( submitted)
 This ROS package implements a basic obstacle-free path planner using the **Dijkstra algorithm**, assuming a clean, known environment with no sensors involved. The planning logic is influenced by the **ratio of the length to width**, which determines path cost heuristics and movement preferences.
 
 H. Naji, S. Yigit-Sert , S. Emrah Amrahov  and A. Cetin).
