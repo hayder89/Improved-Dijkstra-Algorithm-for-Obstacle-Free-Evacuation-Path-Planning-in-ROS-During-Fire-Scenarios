@@ -3,6 +3,7 @@
 
 This ROS package implements a basic obstacle-free path planner using the **Dijkstra algorithm**, assuming a clean, known environment with no sensors involved. The planning logic is influenced by the **ratio of the length to width**, which determines path cost heuristics and movement preferences.
 
+by ( Dr.Hayder Naji, Dr.Sevgi Yigit-Sert , Dr.Sahin Emrah Amrahov  and Dr.Aydin Cetin )
 **We kindly request that anyone who uses or implements this code cite the corresponding article. All authors would greatly appreciate proper acknowledgment of this work.**
 ---
 
